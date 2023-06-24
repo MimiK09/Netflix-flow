@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=Roboto:wght@400;700&display=swap');
+
+#root{
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, main {
+  width : 90%;
+  margin : 0 auto;
+}
+
+header > img {
+  width : 100px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  padding : 20px 0px;
+}
+
+.slider {
+  display: flex;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.slider > *{
+
+  height:100px;
+}
